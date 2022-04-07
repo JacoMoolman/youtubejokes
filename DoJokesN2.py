@@ -101,8 +101,8 @@ while i < 333:
 	
 	##TEXT TO SPEACH
 	polly_client = boto3.Session(
-					aws_access_key_id="AKIAW5EOSKLYSJK4YQHX",                     
-		aws_secret_access_key="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",
+					aws_access_key_id="XXXX",                     
+		aws_secret_access_key="XXXXXXXXXXXX",
 		region_name='us-west-2').client('polly')
 	
 	response = polly_client.synthesize_speech(VoiceId=jokevoice,
